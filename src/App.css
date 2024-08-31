@@ -1,0 +1,196 @@
+:root{
+  --firstColor:#212121;
+  --SecondColor:#0F0F0F;
+  --font-family: "Bricolage Grotesque", sans-serif;
+}
+body{
+  background-color: var(--firstColor);
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.carddiv{
+
+  overflow-y: scroll;
+  height: 88vh;
+  padding: 20px 20px;
+}
+.tit{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: var(--SecondColor);
+}
+.box{box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: 1px solid var(--firstColor);
+  border-radius: 12px;
+/* gap: 4px;   */
+
+}
+.inpdi{
+  /* position:absolute; */
+  top: 0px;
+  padding: 2px;
+  /* background-color: var(--SecondColor); */
+}
+select{
+  border: none;
+  color: white;
+  padding: 5px;
+  border: 3px solid var(--firstColor);
+  background-color: var(--SecondColor);
+}
+.box>img{
+  margin: 15px 0px;
+ border-radius: 8px;
+ border-radius: 12px;
+  height: 150px !important;
+  width: 150px !important;
+}
+.carddiv:-webkit-scrollbar{
+  border: 2px solid var(--firstColor) !important;
+  background-color: var(--SecondColor) !important;
+}
+.div1>div{
+  margin: 5px 0px;
+ 
+}
+.div1{
+  padding-top: 10px !important;
+ overflow-y: scroll;
+  
+  height: 100vh !important;
+  background-color: var(--SecondColor);
+}
+.div1::-webkit-scrollbar{
+  border: 2px solid var(--firstColor);
+  background-color: var(--SecondColor);
+}
+.div1::-webkit-scrollbar-thumb{
+  border: 2px solid var(--SecondColor);
+  background-color: var(--firstColor);
+  /* border: 2px solid red; */
+  height: 20px !important;
+}
+.div1>div>button{
+  background-color: var(--firstColor);
+}
+
+.div1>div>img{
+  border-radius: 8px;
+  border: 2px solid var(--SecondColor);
+}
+body{
+
+  font-family: var(--font-family);
+}
+button{
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor:grab !important;
+  border: 1px solid var(--firstColor);
+  border-radius: 6px;
+  transition: 0.6s ease-in-out;
+}
+.even1>div>div>button:hover{
+  color: white;
+ 
+}
+.even1>div>div>button{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border: 1px solid var(--firstColor ) !important;
+  color: white;
+  /* border: none; */
+  width: 56px;
+  text-align: center !important;
+  /* padding: 15px 25px; */
+  background-color: var(--firstColor);
+}
+.eq{
+  width: 123px !important;
+}
+.fgh{
+  font-weight: bolder;
+  font-size: 24px !important;
+}
+.divin{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border: 1px solid var(--firstColor ) !important;
+  background-color:var(--firstColor);
+  
+}
+.even1>div>input{
+font-size: 18px;
+  border: none;
+  color: white;
+  background-color: transparent !important;
+}
+.even1{
+padding:20px 5px;
+border-radius: 10px;
+  background-color: var(--SecondColor);
+}
+@keyframes fn {
+  0%,100%{transform: translateY(-2px)translateX(2px);}
+  50%{transform: translateY(2px);}
+}
+
+button:hover{
+  background-color: transparent !important;
+  border: 1px solid var(--firstColor);
+}
+.even{
+  color: white;
+  background-color: var(--firstColor);
+  height: 100vh;
+}
+.even>div{
+  font-family: var(--font-family);
+  background-color: var(--SecondColor);
+  padding:20px 10px;
+border-radius: 9px;
+}
+.even>div>input{
+  border-radius: 5px;
+  font-family: var(--font-family);
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+}
+
+.e1>div{
+  transition: 0.7s ease-in-out !important;
+}
+.even>div>h5{
+  font-family: var(--font-family);
+  margin: 10px 0px;
+  padding: 5px 20px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  background-color: var(--SecondColor);
+  color: white;
+  height: auto;
+  transition: 0.4s ease-in-out !important;
+}
+
+.even>div>h3{
+  font-family: var(--font-family);
+  margin: 10px 0px;
+  padding: 5px 20px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  /* background-color: var(--SecondColor); */
+  color: white;
+  height: 40px;
+  transition: 0.4s ease-in-out !important;
+}
+input{
+  padding: 10px;
+}
+.divinp{
+
+  margin: 10px 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
